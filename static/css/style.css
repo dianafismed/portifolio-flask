@@ -1,0 +1,80 @@
+/*        FONTS       */
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+/*        COLORS        */
+:root{
+  --primary-color: rgb(212, 123, 247);
+  --secondary-color: rgb(159, 15, 216) ;
+  --body-color: black;
+  --hover-color: rgb(255, 254, 255);
+
+}
+*{background-color: var(--body-color);}
+
+/*        NAVBAR       */
+#menu-bars{color: var(--primary-color);}
+#menu a{color: var(--primary-color); font-size: 20px;}
+#menu a:hover{color: var(--hover-color);}
+
+/*        PROFILE       */
+#profile{
+  background-color: var(--body-color);
+  color: var(--primary-color);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#img-profile{
+  width: 70%;
+  margin: 25px;
+  padding: 3px;
+  border-radius: 15%;
+  border: 10px double var(--primary-color);
+}
+#profile-txt{font-family: 'Charm'; margin-bottom: 80px;}
+#profile-txt h1{font-size:80px;}
+#profile-txt h2{font-size: 50px;}
+#links a{
+  text-decoration: none;
+  font-family: 'Raleway';
+  color: var(--secondary-color);
+  letter-spacing: 3px;
+  line-height: 35px;
+}
+#links a:hover{color: var(--hover-color);}
+
+/*        ABOUT       */
+#about{
+  color: var(--primary-color);
+  font-style: oblique;
+  box-sizing: border-box;
+}
+#about p{
+  text-align: justify;
+  letter-spacing: 2px;
+  padding: 20px;
+}
+
+/*        FOOTER        */
+#medias a{
+  text-decoration: none;
+  font-size: 25px;
+  margin: 0 10px;
+  color: var(--primary-color);
+}
+#medias a:hover{color: var(--hover-color);}
+
+
+/*        MEDIAS        */
+@media (max-width: 768px) {
+  #profile-txt{ margin-bottom: 30px;}
+  #profile-txt h1{font-size:30px;}
+  #profile-txt h2{font-size: 25px;}
+  
+  #about p{padding:5px;}
+  #medias a{font-size: 18px;}
+}

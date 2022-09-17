@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block title %}Diana | Home {% endblock title %}
+{% block content %}
+<section id="profile" class="container-fluid">
+  <div class="row align-items-center">
+    <div class="col-md-5">
+      <img id="img-profile" class="img-fluid" src="{{ url_for('static', filename='img/me.jpg')}}" alt="Foto do Perfil">
+    </div>
+    <div class="col-md-7">
+      <div id="profile-txt" class="text-center">
+        <h1>Diana Avila</h1>
+        <h2>Analista e Desenvolvedora de Sistemas</h2> 
+      </div>
+      <div id="links" class="text-center">
+        <a href="/about"><h4> C V</h4></a>
+        <a href="/projects"><h4>PROJETOS</h4></a>
+        <a href="mailto:'dianafismed@yahoo.com.br'"><h4>CONTATO</h4></a>
+      </div>
+      </div>   
+    </div>
+  </div>
+</section>
+{% endblock content %}
