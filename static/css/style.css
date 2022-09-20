@@ -35,7 +35,7 @@
   border-radius: 15%;
   border: 10px double var(--primary-color);
 }
-#profile-txt{font-family: 'Charm'; margin-bottom: 80px;}
+#profile-txt{font-family: 'Charm'; margin-bottom: 80px; padding-right: 30px;}
 #profile-txt h1{font-size:80px;}
 #profile-txt h2{font-size: 50px;}
 #links a{
