@@ -2,9 +2,9 @@
 {% block title %}Diana | Home {% endblock title %}
 {% block content %}
 <section id="about" class="container-fluid">
-  <div class="row align-items-center">
-    <div class="col-md-7 mt-3">
-      <h2 class="m-5">Quem sou eu ... </h2>
+  <div id="about-txt" class="row container">
+    <div class="col-md-8 mt-3">
+      <h2 class="m-5">Eu, Diana ... </h2>
       <p class="container">
         Sou recém-graduada no curso de Análise e Desenvolvimento de Sistemas pela Faculdade Tecnológica de Ribeirão Preto (FATEC).<br><br>
         Trabalho, atualmente, na área financeira, mas tenho grande interesse em mudar de área.<br><br>
@@ -13,26 +13,24 @@
         Estou disponível para trabalhos remotos.
       </p>
     </div>
-    <div class="col-md-5">
-      <img id="img-profile" class="img-fluid" src="{{ url_for('static', filename='img/me.jpg')}}" alt="Foto da Diana">
+    <div class="col-md-4 text-center">
+      <img id="img-about" class="img-fluid" src="{{ url_for('static', filename='img/diana.jpg')}}" alt="Foto da Diana">
     </div>    
   </div>
-  
-  <div id="grade" class="container">
-    <h2>Academia</h2><br><br>
+  <div id="grade" class="container text-center p-4">
+    <h2 class="text-uppercase mb-5">Academia</h2>
     <div class="row">
       <div class="col-md-6">
-        <h3 class="text-decoration-underline">Graduação</h3>
+        <h3 class="text-decoration-underline pb-4">Graduação</h3>
         <p>Tecnologia em Análise e Desenvolvimento de Sistemas - FATEC</p>
         <p>Bacharelado em Física Médica - USP</p>
         <p>Curso Sequencial em Gestão Financeira - Moura Lacerda</p>
       </div>
-   
       <div class="col-md-6">
-        <h3 class="text-decoration-underline">Pós-Graduação</h3>
+        <h3 class="text-decoration-underline pb-4">Pós-Graduação</h3>
         <p>CSI: Criminalística - Unyleya</p>
         <p>Psicologia Forense - Unyleya</p>
-        <h2>Idiomas</h2>
+        <h3 class="text-decoration-underline pt-4 pb-4">Idiomas</h3>
         <p>Inglês Intermediário</p>
         <p>Francês básico</p>
       </div>

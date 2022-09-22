@@ -47,17 +47,40 @@
 }
 #links a:hover{color: var(--hover-color);}
 
-/*        ABOUT       */
-#about{
-  color: var(--primary-color);
+/*        ABOUT / PROJECTS       */
+#about, #projects{
+  color: var(--secondary-color);
   font-style: oblique;
   box-sizing: border-box;
 }
 #about p{
+  color: var(--primary-color);
   text-align: justify;
   letter-spacing: 2px;
+  margin-left: 20px;
+}
+#img-about{width: 85%;}
+#grade{
+  margin-top: 20px;
   padding: 20px;
 }
+#projects h2,#projects h3, #projects h4, #projects h5{font-family: 'Charm'; letter-spacing: 5px;}
+
+#projects h5::before{
+  content: '';
+  position: relative;
+  background-color: var(--primary-color);
+  margin: 10px;
+  padding: 2px;
+}
+#projects ul{ list-style-type: none;}
+#projects a{
+  text-decoration: none;
+  color: var(--primary-color);
+  letter-spacing: 2px;
+  margin: 10px 0;
+}
+
 
 /*        FOOTER        */
 #medias a{
